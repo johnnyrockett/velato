@@ -101,7 +101,7 @@ clippy.wildcard_dependencies = "warn"
 
 [workspace.dependencies]
 # NOTE: Make sure to keep this in sync with the version badge in README.md
-vello = { version = "=0.5.0", default-features = false }
+vello = { version = "0.5.0", git = "https://github.com/linebender/vello", rev = "2e74f202aed09f273fe7e84234e9b564f99ff9bc" }
 
 [lints]
 workspace = true
